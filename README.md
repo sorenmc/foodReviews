@@ -15,4 +15,4 @@ was C = 0.11 which evaluated to 87.2 % mean accuracy. This resulted in 84.4% val
 
 
 [1]: 
-[2]: [https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html]
+[2]: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
