@@ -1,7 +1,7 @@
 # foodReviews
 
 ## Resume
-Machinelearning project predicting if a text review was negative or positive. [Data can be found here][1]
+Predicting if a text review was negative or positive. [Data can be found here][1]
 
 There are 1883 examples. The data was split into 70% training, 15% validation and 15% test.
 Bayesian optimization from the framework "bayesian-optimization" and 10-fold cross validation
