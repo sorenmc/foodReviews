@@ -10,7 +10,9 @@ was used to tune hyper parameters.
 [Scikit-learns Logistic regression][3] was used as a baseline model, since it is one of the simplest models. 
 The only hyper parameter optimizable is the inverse regularization strength, 'C'.
 Best value that was found after 20 evaluations of bayesian optimization with 10-fold cross validation
-was C = 0.11 which evaluated to 87.2 % mean accuracy. This resulted in 84.4% validation accuracy and 84.5% test accuracy.
+was C = 4.575 which evaluated to 85.8 % mean accuracy. This resulted in 83.7% validation accuracy and 84.5% test accuracy.
+
+We then tested the model with a regular neural network 
 
 
 
