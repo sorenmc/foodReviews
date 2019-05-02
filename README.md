@@ -4,7 +4,7 @@
 Predicting if a text review was negative or positive. [Data can be found here][1]
 
 There are 1883 examples. The data was split into 70% training, 15% validation and 15% test.
-Bayesian optimization from the framework [BayesianOptimization][2] and 10-fold cross validation
+Bayesian optimization from the framework [GPyOpt][2] and 10-fold cross validation
 was used to tune hyper parameters.
 
 [Scikit-learns Logistic regression][3] was used as a baseline model, since it is one of the simplest models. 
@@ -17,5 +17,5 @@ We then tested the model with a regular neural network
 
 
 [1]: https://github.com/sorenmc/foodReviews/blob/master/data/dataset_examples.tsv
-[2]: https://github.com/fmfn/BayesianOptimization
+[2]: https://github.com/SheffieldML/GPyOpt
 [3]: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
